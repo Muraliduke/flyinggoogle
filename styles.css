@@ -1,0 +1,102 @@
+.lower-side{
+	width: 80%;
+    position: absolute;
+    bottom: 16px;
+}
+.empty{
+	width: 222px;
+    display: inline-block;
+  
+}
+
+.Google{
+	display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    color: #ffffff;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 31px 23px 0px 30px;
+           
+}
+
+@keyframes Google
+		{
+			0%   {
+				animation-timing-function: linear;
+				top:0px;
+
+				}
+			20%  {
+				animation-timing-function: linear;
+				top:90px; 
+				background-color: green;
+
+			}
+			40%  {
+				animation-timing-function: linear;
+				top:190px; 
+				background-color: red;
+
+			}
+			60%  {
+				animation-timing-function: linear;
+				top:380px; 
+				background-color: yellow;
+
+			}
+			80%  {
+				animation-timing-function: linear;
+				top:520px; 
+				background-color: blue;
+
+			}
+			100% {
+				animation-timing-function: linear;
+				top:425px; 
+				background-color: #ccff99;
+				color: #003300;
+
+			}
+		}
+
+#googleFirst{
+	animation:Google 5s;
+	animation-delay: 0s;
+    animation-fill-mode: forwards;
+	background: #006699;
+}
+#googleSecond{
+	animation:Google 5s;
+	animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+	background: #cc99ff;
+}
+#googleThird{
+	animation:Google 5s;
+	animation-delay: 1s;
+    animation-fill-mode: forwards;
+	background: #ff3300;
+}
+#googleFourth{
+	animation:Google 5s;
+	animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+	background: #996600;
+}
+#googleFifth{
+	animation:Google 5s;
+	animation-delay: 2s;
+    animation-fill-mode: forwards;
+	background: #ff0066;
+}
+#googleSixth{
+	animation:Google 5s;
+	animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+	background: #99ff33;
+}
